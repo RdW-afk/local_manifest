@@ -2,26 +2,20 @@
 
 <manifest>
 
-        <remote name="Tiktodz"
-        fetch="https://github.com/Tiktodz" />
+        <remote name="zero"
+        fetch="https://github.com/RdW-afk" />
 
         <remote name="los"
         fetch="https://github.com/LineageOS" />
 
-        <!-- remote name="Panchajanya1999"
-        fetch="https://gitlab.com/Panchajanya1999" /-->
-
-        <remote name="strongreasons"
-        fetch="https://github.com/strongreasons" />
-
-        <!-- remote name="Joker-V2"
-        fetch="https://gitlab.com/Joker-V2" /-->
+        <remote name="tiktod"
+        fetch="https://github.com/Tiktodz" />
 
         <!-- Sync trees -->
-        <project path="device/asus/sdm660-common" name="android_device_asus_sdm660-common" remote="strongreasons" revision="banana" />
-        <project path="device/asus/X00TD" name="device_asus_X00TD" remote="Tiktodz" revision="ban" />
-        <project path="vendor/asus" name="vendor_asus" remote="strongreasons" revision="master" />
-        <project path="kernel/asus/sdm660" name="android_kernel_asus_sdm636" remote="Tiktodz" revision="Turu" />
+        <project path="device/asus/sdm660-common" name="NextGenCommon " remote="zero" revision="Lineage" />
+        <project path="device/asus/X00TD" name="device_asus_X00TD-12" remote="zero" revision="bnnx" />
+        <project path="vendor/asus" name="NextGenVT" remote="zero" revision="Lineage" />
+        <project path="kernel/asus/sdm660" name="android_kernel_asus_sdm636" remote="tiktod" revision="twelve-caf-eas" />
 
         <!-- azure clang 15.0.0 -->
         <!-- project path="prebuilts/clang/host/linux-x86/clang-azure" name="azure-clang" remote="Panchajanya1999" revision="main" /-->
@@ -32,8 +26,8 @@
         <remove-project name="android_hardware_qcom_media" />
         <remove-project name="android_hardware_qcom_audio" />
 
-        <project path="hardware/qcom-caf/msm8998/display" name="android_hardware_qcom_display" remote="los" revision="lineage-19.1-caf-msm8998" />
-        <project path="hardware/qcom-caf/msm8998/media" name="android_hardware_qcom_media" remote="los" revision="lineage-19.1-caf-msm8998" />
-        <project path="hardware/qcom-caf/msm8998/audio" name="android_hardware_qcom_audio" remote="los" revision="lineage-19.1-caf-msm8998" />
+        <project path="hardware/qcom-caf/msm8998/display" name="android_hardware_qcom_display" remote="los" revision="lineage-20.0-caf-msm8998" />
+        <project path="hardware/qcom-caf/msm8998/media" name="android_hardware_qcom_media" remote="los" revision="lineage-20.0-caf-msm8998" />
+        <project path="hardware/qcom-caf/msm8998/audio" name="android_hardware_qcom_audio" remote="los" revision="lineage-20.0-caf-msm8998" />
 
 </manifest>
